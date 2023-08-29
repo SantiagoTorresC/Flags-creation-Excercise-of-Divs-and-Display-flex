@@ -1,0 +1,150 @@
+body{
+    background-color: lightgray;
+}
+
+.HERO{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+
+/* A continuacion lo que hice fue crear una bandera 
+utilizando DIVS, para eso en CSS le di la propiedad
+ al div en general para que se representen todos
+de la forma deseada. Al configurarse cada DIV con 
+las caracteristicas grales y viendolos como un 
+conjunto... se obtiene el resultado final (bandera)*/
+
+.bandera > div{
+    width: 300px;
+    height: 66.6px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bandera2 > div{
+    width: 300px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Esta nueva clase fue creada para todas
+las banderas que tienen las franjas verticales. */
+
+.bandera3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bandera33{
+    width: 100px;
+    height: 200px;
+}
+
+.bandera4{
+    width: 300px;
+    height: 33.3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.especial{
+    width: 300px;
+    height: 66.6px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.margin{
+    margin-bottom: 40px;
+}
+
+/* Bandera de Thailandia */
+.fthai1{
+    background-color: red;
+}
+.fthai2{
+    background-color: white;
+}
+.fthai3{
+    background-color: blue;
+}
+.fthai4{
+    background-color: white;
+}
+.fthai5{
+    background-color: red;
+}
+
+
+/* Bandera de Alemania */
+
+.falem1 {
+    background-color: black;
+}
+
+.falem2 {
+    background-color: red;
+}
+
+.falem3{
+    background-color: yellow;
+}
+
+/* Bandera de Polonia */
+
+.fpol1{
+    background-color: white;
+}
+
+.fpol2{
+    background-color: #D4213D;
+}
+
+/* Bandera de Irlanda */
+
+.firl1{
+    background-color: green;
+}
+.firl2{
+    background-color: white;
+}
+.firl3{
+    background-color: orange;
+}
+
+/* Bandera de Francia */
+.ffr1{
+    background-color: blue;
+}
+.ffr2{
+    background-color: white;
+}
+.ffr3{
+    background-color: red;
+}
+
+/* Bandera de Italia */
+.fitl1{
+    background-color: green;
+}
+.fitl2{
+    background-color: white;
+}
+.fitl3{
+    background-color: red;
+}
+
+
+
+
+
+.fin{
+    text-align: center;
+}
